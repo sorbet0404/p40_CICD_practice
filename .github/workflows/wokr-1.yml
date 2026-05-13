@@ -8,7 +8,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: sayHi
-        run: echo "Hi"
+        run: echo "Hi2"
       - name: sayMyName
         run: echo "${{ github.actor }}"
       - uses: actions/checkout@v4
